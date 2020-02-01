@@ -1,0 +1,53 @@
+.navbar-brand {
+    color: aquamarine;
+    font-size: 41px;
+    top: -12px;
+    position: relative;
+    left: 81px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 150px;
+}
+ body{
+     background-image: url(https://images6.alphacoders.com/930/thumb-1920-930345.jpg);
+     margin: 0 auto;
+     width: 1000px;
+ }
+ .img-fluid{
+     float: left;
+     margin-right: 25px;
+ }
+
+ .picspace{
+    vertical-align: middle;
+    border-style: groove;
+    margin-right: 20px;
+}
+
+ .index-para{
+     margin: 15px;
+     font-size: 15px;
+ }
+ .jumbotron{
+     background-color: rgb(30, 85, 85);
+     color: whitesmoke;
+     padding-top: 19px;
+ }
+
+.nav{
+    background-color: royalblue;
+}
+
+h2{
+    font-size: 36px;
+    font-family: georgia;
+    margin: 0px;
+    left: 7px;
+    position: relative;
+}
+
+hr.rounded {
+    border-top: 3px solid #bbb;
+    border-radius: 10px;
+    color: black;   
+    background-color: black;
