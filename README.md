@@ -1,11 +1,13 @@
 # bootstrap-portfolio
 
-used bootstrap for jumbotron, nav bar, list, and portfolio
+added professional picture
 
-set colors and pictures for aesthetic
+added genuine bio and personal contact information
 
-changed infomation where needed
+showed examples of projects including screenshots, descriptions, and github URLS
 
-pretend that im actually james bond
+updated github and LinkedIn with furthermore updated information
+
+completed brand new resume
 
 file:///C:/Users/Clay_/code/homework/bootstrap-portfolio/index.html

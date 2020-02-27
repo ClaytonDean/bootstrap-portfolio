@@ -26,12 +26,14 @@
 
  .index-para{
      margin: 15px;
-     font-size: 15px;
+     line-height: 2pc;
+    font-size: larger;
  }
  .jumbotron{
      background-color: rgb(30, 85, 85);
      color: whitesmoke;
      padding-top: 19px;
+     
  }
 
 .nav{
@@ -51,3 +53,18 @@ hr.rounded {
     border-radius: 10px;
     color: black;   
     background-color: black;
+}
+
+.imgWidth{
+ width: 25%;
+}
+
+#indexContainer{
+    height: 440px;
+}
+
+.projectImg{
+    margin: auto;
+    display: block;
+    width: 80%;
+}
