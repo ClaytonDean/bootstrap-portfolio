@@ -7,12 +7,16 @@
  font-family: Georgia, 'Times New Roman', Times, serif;
     height: 50px;
     width: 150px;
+    
 }
  body{
-     background-image: url(https://images6.alphacoders.com/930/thumb-1920-930345.jpg);
+     background-image: url(https://wallpaperaccess.com/full/1726177.jpg);
      margin: 0 auto;
      width: 1000px;
- }
+     /* background-position: center center; */
+        background-size: auto;
+        /* background-repeat: no-repeat; */
+     }
  .img-fluid{
      float: left;
      margin-right: 25px;
@@ -25,13 +29,25 @@
 }
 
  .index-para{
-     margin: 15px;
-     line-height: 2pc;
-    font-size: larger;
+    text-align: center;
+    color: aliceblue;
+    font-family: -webkit-body;
+    font-size: 100px;
+    position: relative;
+    display: block;
+    margin-top: 135px;
+ }
+ .index-second{
+    text-align: center;
+    color: aliceblue;
+    font-family: -webkit-body;
+    font-size: 50px;
+    position: relative;
+    display: block;
+    margin-top: 10px;
  }
  .jumbotron{
-     background-color: rgb(30, 85, 85);
-     color: whitesmoke;
+    background: none;
      padding-top: 19px;
      
  }
@@ -67,4 +83,26 @@ hr.rounded {
     margin: auto;
     display: block;
     width: 80%;
+}
+
+.backgroundNone{
+    background: none;
+}
+
+.cardStyle{
+    border-style: groove;
+    background: none;
+    color: aliceblue;
+    border-color: inherit;
+    text-align: center;
+}
+
+.rowStyle{
+    margin-top: 200px;
+}
+
+.indexBtn{
+
+    margin: auto;
+        display: block;
 }
