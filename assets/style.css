@@ -45,6 +45,7 @@
     position: relative;
     display: block;
     margin-top: 10px;
+    margin-bottom: 100px;
  }
  .jumbotron{
     background: none;
@@ -95,14 +96,35 @@ hr.rounded {
     color: aliceblue;
     border-color: inherit;
     text-align: center;
+    margin: 10px;
+    /* height: 340px; */
+}
+.porfolioCardStyle{
+    border-style: groove;
+    background: none;
+    color: aliceblue;
+    border-color: inherit;
+    text-align: center;
+    margin: 10px;
+    height: 340px;
 }
 
 .rowStyle{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .indexBtn{
 
     margin: auto;
         display: block;
+}
+
+.aliceBlue{
+    color: aliceblue;
+}
+
+.cellEmailStyle{
+    font-size: 30px;
+    font-family: -webkit-body;
+    color: aliceblue;
 }

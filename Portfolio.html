@@ -12,65 +12,82 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Clayton Holman</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <!-- <a class="nav-link" href="Link.html">Contact</a>
-                </li> -->
-            </ul>
-        </div>
-    </nav>
-    <br>
-    <div class="jumbotron">
-        <h2>Portfolio</h2>
-        <br>
-        <div class="container">
-            <p>Clayton Dean Holman</p>
-            <p>(815)341-7099</p>
-            <p>GitHub : <a href="https://github.com/ClaytonDean">Click</a></p>
-            <p>LinkedIn : <a href="https://www.linkedin.com/in/clayton-dean-4469871a0/">Click</a></p>
-            <p>Professional Resume : </p>
-            <a href="Resume\Clayton_Holman_Resume.PDF">View PDF</a>
-            <p></p>
-        </div>
-        <br>
-        <h3>Projects</h3>
-        <br>
-        <h5>GrocerEASE</h5>
-        <img class="projectImg" src="imgs\Annotation 2020-02-27 022214.png" alt="">
-        <br>
-        <p>Ingredients search engine designed to make finding recipes and grocery shopping easy and simple</p>
-        <a href="https://lorddominic.github.io/grocerEASE/">https://lorddominic.github.io/grocerEASE/</a>
-        <a href="https://github.com/lorddominic/grocerEASE">https://github.com/lorddominic/grocerEASE</a>
-        <br>
-        <h5>Weather Dashboard</h5>
-        <img class="projectImg" src="imgs\WeatherDashboard.png" alt="">
-        <br>
-        <p>Find specific weather forecasts depending on city or country
-        </p>
-        <a href="https://claytondean.github.io/Weather_App/">https://claytondean.github.io/Weather_App/</a>
-        <a href="https://github.com/ClaytonDean/Weather_App">https://github.com/ClaytonDean/Weather_App</a>
-        <br>
-        <h5>Password Generator</h5>
-        <img class="projectImg" src="imgs\PasswordGenerator.png" alt="">
-        <br>
-        <p>Creates various passwords depending on user specifications
-        </p>
-      <a href="https://claytondean.github.io/password-generator/">https://claytondean.github.io/password-generator/</a>
-       <a href="https://github.com/ClaytonDean/password-generator">https://github.com/ClaytonDean/password-generator</a>
+    <div class="jumbotron container" id="indexContainer">
+        <div class="index-para">Portfolio</div>
+    </div>
 
+    <div class="row rowStyle">
+        <div class="col-sm-4">
+            <div class="card cardStyle">
+              <div class="card-body">
+                <h5 class="card-title">Pokemon Battle</h5>
+                <img class="projectImg" src="imgs\pokemon.png" alt="">
+                <p>Pokemon Battle App using HTML, CSS, Jquery, and Express Handlebars on the front end and uses Node.js, Express, MySQL, and Sequelize on the back end.</p>
+                <a href="https://glacial-beyond-53964.herokuapp.com/pokedex" class="btn btn-dark">View</a>
+                <a href="https://github.com/JacksonCroy/Dope-Pokemon-Dopeness" class="btn btn-dark">View with Github</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-sm-4">
+            <div class="card cardStyle">
+              <div class="card-body">
+                <h5 class="card-title">Eat the Pizza!</h5>
+                <img class="projectImg" src="imgs\Pizza.png" alt="">
+                <p>Utilizes nodeJS, express, handlebars, and mySQL to configure an exercise designed to help understand the fundamentals of MVC as well as get/post/put/delete methods</p>
+                <a href="https://glacial-beyond-53964.herokuapp.com/pokedex" class="btn btn-dark">View</a>
+                <a href="https://github.com/ClaytonDean/eat-the-pizza" class="btn btn-dark">View with Github</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-sm-4">
+            <div class="card cardStyle">
+              <div class="card-body">
+                <h5 class="card-title">NoteTaker</h5>
+                <img class="projectImg" src="imgs\Notetaker.png" alt="">
+                <p>Uses HTML and API routing to display, post, and delete the users note title and note text</p>
+                <a href="https://glacial-beyond-53964.herokuapp.com/pokedex" class="btn btn-dark">View</a>
+                <a href="https://github.com/ClaytonDean/heroku-note-taker" class="btn btn-dark">View with Github</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-sm-4">
+          <div class="card cardStyle">
+            <div class="card-body">
+              <h5 class="card-title">GrocerEASE</h5>
+              <img class="projectImg" src="imgs\Annotation 2020-02-27 022214.png" alt="">
+              <p>Ingredients search engine using ajax calls within a polished UI</p>
+              <a href="https://lorddominic.github.io/grocerEASE/" class="btn btn-dark">View</a>
+              <a href="https://github.com/lorddominic/grocerEASE" class="btn btn-dark">View with Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card cardStyle">
+            <div class="card-body">
+              <h5 class="card-title">Weather Dashboard</h5>
+              <img class="projectImg" src="imgs\WeatherDashboard.png" alt="">
+              <p>Find specific weather forecasts depending on city or country</p>
+              <a href="https://claytondean.github.io/Weather_App/" class="btn btn-dark">View</a>
+              <a href="https://github.com/ClaytonDean/Weather_App" class="btn btn-dark">View with Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card cardStyle">
+            <div class="card-body">
+              <h5 class="card-title">Password Generator</h5>
+              <img class="projectImg" src="imgs\PasswordGenerator.png" alt="">
+              <p>Creates various passwords depending on user specifications</p>
+              <a href="https://claytondean.github.io/password-generator/" class="btn btn-dark">View</a>
+              <a href="https://github.com/ClaytonDean/password-generator" class="btn btn-dark">View with Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="btn btn-dark indexBtn"><a href="index.html">Go Home</a></p>
+     
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>
@@ -80,16 +97,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6"></div>
-                <div class="box"></div>
-            </div>
-
-
-        </div>
 </body>
 
 </html>
